@@ -34,7 +34,7 @@ To run LabShare on your own machine and broadcast it to your local network, foll
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/LabShare-Network.git](https://github.com/Parth-Chavan-15/LabShare)
+git clone https://github.com/Parth-Chavan-15/LabShare
 ```
 
 ### 2. Setup the Backend Engine
@@ -45,8 +45,8 @@ npm install
 ```
 
 #### Create your secret environment file:
-Copy the .env.example file and rename the copy to .env.
-Fill in your VirusTotal API key and set a custom Admin password.
+Create a copy of the `.env.example` file and name the new file `.env`. 
+Inside your new `.env` file, fill in your VirusTotal API key and set a custom Admin password:
 
 <pre>
 PORT=5000
